@@ -1,0 +1,101 @@
+/*********************************************
+CSS Stylesheet for Psycho Pink Man Game
+**********************************************/
+
+/* Reset and Base Styles */
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #ffe6f0; /* Soft pastel pink background */
+  font-family: 'Comic Sans MS', cursive, sans-serif; /* Kawaii-style font */
+}
+
+/* Common Styles for Screens */
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hidden class to toggle visibility */
+.hidden {
+  display: none;
+}
+
+/* Start and End Screen Styles */
+#start-screen,
+#end-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 230, 240, 0.95); /* Slightly transparent pastel pink */
+  z-index: 2;
+}
+
+#start-screen h1,
+#end-screen h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #ff66b2; /* Bright pastel pink */
+  text-shadow: 2px 2px 4px #ffffff;
+}
+
+#end-screen p {
+  font-size: 24px;
+  margin: 10px 0 30px 0;
+  color: #ff66b2;
+}
+
+/* Button Styles */
+.btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 20px;
+  background-color: #ffb6c1; /* Light pastel pink */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  background-color: #ff69b4; /* Hot pink on hover */
+  transform: scale(1.05);
+}
+
+/* HUD Styles */
+#hud {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  color: #ff66b2;
+  text-shadow: 1px 1px 2px #ffffff;
+}
+
+/* Canvas Container */
+#game-screen canvas {
+  z-index: 1; /* Ensure canvas is below HUD */
+  border: 5px solid #ffb6c1; /* Pastel pink border */
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Additional Styles for Kawaii Elements */
+h1,
+p,
+span {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}

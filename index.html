@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Psycho Pink Man</title>
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Library scripts -->
+  <script src="js/libraries/p5.min.js"></script>
+  <script src="js/libraries/p5.sound.min.js"></script>
+
+  <!-- Your custom JavaScript -->
+  <script src="js/script.js" defer></script>
+</head>
+
+<body>
+  <!-- Start Screen -->
+  <div id="start-screen" class="screen">
+    <h1>Psycho Pink Man</h1>
+    <button id="start-button" class="btn">Start New Game</button>
+  </div>
+
+  <!-- Game Screen -->
+  <div id="game-screen" class="screen hidden">
+    <!-- Display Timer and Score -->
+    <div id="hud">
+      <span id="timer">Time: 30s</span>
+      <span id="score">Score: 0</span>
+    </div>
+    <!-- p5.js will create the canvas here -->
+  </div>
+
+  <!-- End Screen -->
+  <div id="end-screen" class="screen hidden">
+    <h1>Thank You for Playing!</h1>
+    <p>Your Score: <span id="final-score">0</span></p>
+    <button id="restart-button" class="btn">Restart Game</button>
+  </div>
+</body>
+
+</html>
