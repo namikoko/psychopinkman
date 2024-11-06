@@ -24,7 +24,14 @@ Installation
 
 To run Psycho Pink Man locally on your machine, follow these steps:
 
-1. Clone the Repository:
+1. Follow this link : https://namikoko.github.io/psychopinkman/
+
+   OR
+
+2. Clone the Repository:
+
 
    bash
    git clone https://github.com/namikoko/psychopinkman/
+
+Thank you !
