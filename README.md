@@ -3,7 +3,7 @@ Psycho Pink Man
 
 Project Overview
 
-**Psycho Pink Man** is a delightful and engaging browser-based game developed as part of a Mod Jam project. Combining charming visuals with intuitive gameplay, players navigate a cheerful character to catch elusive flies within a set timeframe. The game's pastel pink aesthetic and playful mechanics aim to deliver an enjoyable experience for players of all ages.
+Psycho Pink Man is a delightful and engaging browser-based game developed as part of a Mod Jam project. Combining charming visuals with intuitive gameplay, players navigate a cheerful character to catch elusive flies within a set timeframe. The game's pastel pink aesthetic and playful mechanics aim to deliver an enjoyable experience for players of all ages.
 
 Description
 
@@ -20,11 +20,11 @@ Features
 - Responsive Design: The game adjusts seamlessly to different screen sizes for optimal playability.
 - Simple Controls: Intuitive controls make the game accessible to players of all ages.
 
-#Installation
+Installation
 
 To run Psycho Pink Man locally on your machine, follow these steps:
 
 1. Clone the Repository:
 
    bash
-   git clone https://github.com/namikoko/psycho-pink-man.git
+   git clone https://github.com/namikoko/psychopinkman/
